@@ -1,0 +1,33 @@
+{
+  "name": "55-plus-vanilla-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "vanilla-js",
+    "sass"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project.git"
+  },
+  "author": "muhammad asif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/issues"
+  },
+  "homepage": "https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.0.2"
+  }
+}
