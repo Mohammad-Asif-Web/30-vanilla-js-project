@@ -1,34 +1,26 @@
 {
   "name": "55-plus-vanilla-js-project",
   "version": "1.0.0",
-  "description": "this project is for beginners",
-  "main": "index.js",
+  "description": "this projects is for begginer",
+  "main": "index.html",
   "scripts": {
-    
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project.git"
   },
   "keywords": [
-    "bootstrap-v5",
-    "sass",
+    "vanillaJS",
+    "javascript-projects",
     "50projects50days",
     "JavaScript30",
-    "55plusvanillaprojects"
+    "55-plus-vanilla-js-project"
   ],
   "author": "muhammad asif",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/issues"
   },
-  "homepage": "https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project#readme",
-  "dependencies": {
-    "autoprefixer": "^10.4.0",
-    "bootstrap": "^5.1.3",
-    "postcss-cli": "^9.0.2"
-  },
-  "devDependencies": {
-    "sass": "^1.43.4"
-  }
+  "homepage": "https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project#readme"
 }
