@@ -1,0 +1,92 @@
+/* utilities */
+.sp-yellow{
+    color:#F2FE67;
+    font-size: 43px;
+}
+
+
+
+
+/* scroll up button */
+.util{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: #16114E;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s all;
+    opacity: 0.7;
+
+}
+.util a i{
+    font-size: 40px;
+    color: #F2FE67
+}
+
+.social{
+    position: absolute;
+    bottom: -100px;
+    left: -2px;
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.social a{
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 0 20px 20px 0;
+    margin: 5px 0;
+    padding: 5px;
+    color: #F2FE67
+}
+
+.social a span{
+    visibility: hidden;
+    transition: 1s all ease-in;
+    display: none;
+    
+}
+.social a:hover span{
+    visibility: visible;
+    display: inline-block;
+}
+.social:hover{
+    width: 140px;
+    transition: all ease-in 0.5s;
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 25px;
+} 
+::-webkit-scrollbar-track{
+    background: #100c35;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#F2FE67, #A2A533, #647330);
+    border: 4px solid #100c35;
+    border-radius: 20px;
+    height: 10%;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(to bottom, yellow, #FFC300, #FCAC00, #FC8200, #FC4900);
+}
+
+
+
+
+
+
+
+
+
+

@@ -9,19 +9,22 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
-/* utilities */
-.sp-yellow{
-    color:#F2FE67;
-    font-size: 43px;
+body{
+    background-image: url(/assets/img/dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 
 
 /* header section */
 header{
     width: 100%;
     height: auto;
-    background: #000;
+    /* background: #000; */
     padding: 50px 0;
 
 }
@@ -182,14 +185,51 @@ main .project-section{
     font-size: 60px;
     color: #ffffff;
 }
-.wrapper .line .hr{
-    width: 2px;
-    height: 2px;
+.wrapper .line span{
+    width: 20px;
+    height: 20px;
     background: #F2FE67;
-    color: #F2FE67;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
 }
-
-
+.line span::before{
+    content: "";
+    width: 180px;
+    height: 3px;
+    background:#F2FE67;
+    position: absolute;
+    top: 10px;
+    left: -200px;
+}
+.line span::after{
+    content: "";
+    width: 180px;
+    height: 3px;
+    background:#F2FE67;
+    position: absolute;
+    top: 10px;
+    right: -200px;
+}
+.connect .fluid{
+    max-width: 90%;
+    height: 200px;
+    margin-left: 8%;
+    /* margin-top: 2%; */
+    background:#ffffff;
+    display: flex;
+    justify-content: space-between;
+};
+.fluid .fluid-text{
+    width: 60%;
+    height: 100px;
+    background: coral;
+}
+.fluid-svg{
+    width: 40%;
+    height: 100px;
+    background: aqua;
+}
 
 
 
