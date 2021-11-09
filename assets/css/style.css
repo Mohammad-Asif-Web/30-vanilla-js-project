@@ -7,15 +7,25 @@
     text-decoration: none;
     list-style: none;
 }
+/* Color Theme Swatches in Hex */
+:root{
+    -light-v-color: #032859;
+    -dark-v-color: #021D40;
+    -v-high-colo: #5377A6; 
+    -v-medium-color: #6997BF;
+    -v-low-color: #89BAD9;
+}
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(/assets/img/dark.jpg);
+    background: rgb(24, 28, 83);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
+
 }
 
 
@@ -24,7 +34,9 @@ body{
 header{
     width: 100%;
     height: auto;
-    /* background: #000; */
+    background: url(/assets/img/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 50px 0;
 
 }
@@ -35,7 +47,7 @@ header .container{
     margin-left: 8%;
     padding-bottom: 20px;
     border-radius: 8px;
-    z-index: -100;
+    opacity: 0.8;
     
 }
 .container h1{
@@ -211,30 +223,104 @@ main .project-section{
     top: 10px;
     right: -200px;
 }
-.connect .fluid{
+.connect .connect-main{
     max-width: 90%;
-    height: 200px;
     margin-left: 8%;
-    /* margin-top: 2%; */
-    background:#ffffff;
+    height: 200px;
     display: flex;
     justify-content: space-between;
-};
-.fluid .fluid-text{
+}
+.connect-main .connect-text{
     width: 60%;
-    height: 100px;
-    background: coral;
+    height: 100%;
+    
 }
-.fluid-svg{
+.connect-text p{
+    font-size: 30px;
+    text-align: justify;
+    color: #F2FE67;
+    margin-top: 20px;
+}
+.connect-text p:nth-child(2){
+    margin-top: 20px;
+}
+.connect-main .connect-img{
     width: 40%;
-    height: 100px;
-    background: aqua;
+    height: 100%;
+    
+    text-align: center;
+}
+.connect-img svg{
+    margin-top: -40px;
 }
 
 
+/* footer section */
+footer{
+    width: 100%;
+    height: 220px;
+    background: #323330;
+    margin-top: 100px;
+}
+.footer-text{
+    max-width: 90%;
+    margin-left: 8%;
+    height: 100%;
+    display: flex;
+    gap: 5%;
+    padding-top: 20px;
+    
+    
+}
+.footer-text .about,
+.footer-text .resources{
+    flex-basis: 20%;
+    height: auto;
+    text-align: justify;
 
+}
 
+.footer-text .copy{
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.footer-text h4{
+    font-size: 30px;
+    color: #F2FE67;
+}
+.footer-text .about p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.resources ul{
+    margin-top: 20px;
+}
+.resources ul li{
+    display: block;
+    margin-top: 2px;
+}
+.resources ul li a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.resources ul li a:hover{
+    text-decoration: underline;
+    color: #F2FE67;
+}
+.copy p{
+    font-size: 20px;
+    color: #ffffff;
+}
+.copy .sp-copy a{
+    color: #F2FE67;
+    text-decoration: underline;
+}
 
 
 

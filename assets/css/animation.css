@@ -1,0 +1,27 @@
+.connect-img svg #love{
+    fill: #000;
+    animation: heart 1s infinite forwards ease-in-out;
+}
+@keyframes heart {
+    0%{
+        fill: yellow;
+    }
+    20%{
+        fill: red;
+    }
+    40%{
+        fill: blue;
+    }
+    60%{
+        fill: green;
+    }
+    80%{
+        fill: coral;
+    }
+    90%{
+        fill: gold;
+    }
+    100%{
+        fill: aqua;
+    }
+}
