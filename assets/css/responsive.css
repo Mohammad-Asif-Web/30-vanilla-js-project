@@ -1,0 +1,244 @@
+@media only screen and (max-width:1765px){
+    .profile-text h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:1550px){
+    .profile-text h2{
+        font-size: 20px;
+    }
+    .profile p{
+        font-size: 18px;
+    }
+    .heading span {
+        font-size: 22px;
+        margin: -5px;
+    }
+    .project-section .project-head .fas {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .project-section .project-head {
+        height: 60px;
+    }
+    .project-section .projects {
+        height: 55px;
+    }
+    .part li a {
+        font-size: 19px;
+    }
+    .projects .fas {
+        font-size: 32px;
+    }
+
+
+}
+@media only screen and (max-width: 1400px) {
+    .container h1 {
+        font-size: 30px;
+    }
+    .container p {
+        font-size: 30px;
+    }
+    .container .container-in {
+        font-size: 30px;
+    }
+    .sp-yellow {
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 1340px) {
+    .profile-text h2{
+        font-size: 17px;
+    }
+    .profile p{
+        font-size: 14px;
+    }
+    .profile-in .profile-pic {
+        height: 150px;
+    }
+    main .profile {
+        height: 310px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .profile-in .profile-pic {
+        height: 140px;
+    }
+    .profile-text h2 {
+        font-size: 12px;
+    }
+    .profile p {
+        font-size: 12px;
+        margin: 0 20px;
+    }
+
+    .project-section .project-head .fas {
+        font-size: 25px;
+    }
+    .project-section .project-head {
+        height: 50px;
+    }
+    .heading span {
+        font-size: 16px;
+    }
+    .projects .fas {
+        font-size: 25px;
+    }
+    .project-section .projects {
+        height: 45px;
+    }
+    .part li a {
+        font-size: 12px;
+    }
+
+
+}
+@media only screen and (max-width: 1040px) {
+    .container h1 {
+        font-size: 24px;
+    }
+    .container p {
+        font-size: 19px;
+    }
+    .container .container-in {
+        font-size: 19px;
+    }
+    .sp-yellow {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .profile-in .profile-pic {
+        height: 110px;
+        width: 140px;
+    }
+    main .profile {
+        height: 255px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    main .profile {
+        width: 60%;
+        margin-bottom: 40px;
+        border-radius: 12px;
+    }
+    .profile-text h2 {
+        font-size: 18px;
+    }
+    .profile p {
+        font-size: 16px;
+    }
+
+    main .project-section {
+        width: 80%;
+    }
+    .project-section .project-head .fas {
+        font-size: 30px;
+    }
+    .heading span {
+        font-size: 20px;
+    }
+    .project-section .project-head {
+        height: 55px;
+    }
+    .project-section .projects {
+        height: 50px;
+    }
+    .projects .fas {
+        font-size: 30px;
+    }
+    .part li a {
+        font-size: 17px;
+    }
+
+
+}
+@media only screen and (max-width: 760px) {
+    .container h1 {
+        font-size: 16px;
+    }
+    .container p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .container .container-in {
+        font-size: 14px;
+    }
+    .sp-yellow {
+        font-size: 16px;
+    }
+
+    main .profile {
+        width: 70%;
+    }
+
+    
+
+
+
+}
+@media only screen and (max-width: 655px) {
+    .profile-text h2 {
+        font-size: 14px;
+    }
+    .profile-in .profile-pic {
+        height: 92px;
+        width: 110px;
+    }
+    .profile p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .container h1 {
+        font-size: 10px;
+    }
+    .container p {
+        font-size: 8px;
+    }
+    .container .container-in {
+        font-size: 8px;
+    }
+    .sp-yellow {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .profile .profile-in {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-text h2 {
+        font-size: 12px;
+        display: block;
+        text-align: center;
+    }
+    .profile-in .profile-pic {
+        height: 100px;
+        width: 100px;
+    }
+    .profile p {
+        font-size: 9px;
+        display: block;
+        text-align: center;
+    }
+    main .profile {
+        height: auto;
+    }
+}
+
+
+
+
