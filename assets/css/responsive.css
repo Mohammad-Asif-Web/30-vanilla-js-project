@@ -2,6 +2,31 @@
     .profile-text h2{
         font-size: 25px;
     }
+    .wrapper span {
+        font-size: 50px;
+    }
+    .wrapper .line span {
+        width: 15px;
+        height: 15px;
+    }
+    .line span::before {
+        content: "";
+        width: 155px;
+        position: absolute;
+        top: 6px;
+        left: -165px;
+    }
+    .line span::after {
+        content: "";
+        width: 155px;
+        position: absolute;
+        top: 7px;
+        right: -165px;
+    }
+    .connect-text p {
+        font-size: 25px;
+        margin-top: 15px;
+    }
 }
 @media only screen and (max-width:1550px){
     .profile-text h2{
@@ -93,6 +118,65 @@
     .part li a {
         font-size: 12px;
     }
+    .wrapper span {
+        font-size: 35px;
+    }
+    .wrapper .line span {
+        width: 8px;
+        height: 8px;
+    }
+    .line span::before {
+        content: "";
+        width: 110px;
+        position: absolute;
+        top: 3px;
+        left: -115px;
+        height: 2px;
+    }
+    .line span::after {
+        content: "";
+        width: 110px;
+        height: 2px;
+        position: absolute;
+        top: 3px;
+        right: -115px;
+    }
+    .connect-text p {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+    .sp-white {
+        font-size: 20px;
+    }
+    .connect {
+        height: 238px;
+        margin-top: 45px;
+    }
+    .connect-img svg {
+        margin-top: 0px;
+        width: 220px;
+        height: 160px;
+    }
+
+    .footer-text h4 {
+        font-size: 25px;
+    }
+    .footer-text .about p {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .resources ul li a {
+        font-size: 16px;
+    }
+    .copy img{
+        width: 80px;
+        height: 80px;
+    }
+    .copy p {
+        font-size: 15px;
+    }
+
+
 
 
 }
@@ -160,6 +244,10 @@
     .part li a {
         font-size: 17px;
     }
+    .social {
+        position: absolute;
+        bottom: 32%;
+    }
 
 
 }
@@ -181,8 +269,13 @@
     main .profile {
         width: 70%;
     }
-
-    
+    main .project-section {
+        width: 90%;
+    }
+    .social {
+        position: absolute;
+        bottom: 42%;
+    }
 
 
 
@@ -198,6 +291,146 @@
     .profile p {
         font-size: 12px;
     }
+
+    .project-section .project-head .fas {
+        font-size: 25px;
+    }
+    .heading span {
+        font-size: 15px;
+    }
+    .project-section .project-head {
+        height: 45px;
+    }
+    .project-section .projects {
+        height: 40px;
+    }
+    .part li a {
+        font-size: 12px;
+    }
+    .projects .fas {
+        font-size: 20px;
+    }
+    .projects .part {
+        margin-top: 12px;
+    }
+    .social:hover {
+        width: 80px;
+    }
+    .social a {
+        font-size: 12px;
+    }
+    .social {
+        position: absolute;
+        bottom: 48%;
+    }
+
+    .connect {
+        height: 400px;
+        margin-top: 45px;
+        text-align: center;
+        margin-left: 13%;
+        width: 80%;
+    }
+    .wrapper span {
+        font-size: 25px;
+    }
+    .wrapper .line span {
+        width: 5px;
+        height: 5px;
+    }
+    .line span::before {
+        content: "";
+        width: 75px;
+        position: absolute;
+        top: 3px;
+        left: -80px;
+        height: 1px;
+    }
+    .line span::after{
+        content: "";
+        width: 75px;
+        position: absolute;
+        top: 3px;
+        right: -80px;
+        height: 1px;
+    }
+    .connect .wrapper {
+        padding-top: 10px;
+    }
+    .connect .connect-main {
+        max-width: 100%;
+        margin-left: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .connect-main .connect-text {
+        width: 90%;
+        height: auto;
+    }
+    .connect-text p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .sp-white {
+        font-size: 15px;
+    }
+    .connect-main .connect-img {
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        display: block;
+        margin-top: 20px;
+    }
+    .connect {
+        height: 360px;
+        margin-top: 40px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+    .footer-text {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 20px;
+    }
+    .footer-text .about, .footer-text .resources {
+        flex-basis: 45%;
+    }
+    .footer-text h4 {
+        font-size: 20px;
+    }
+    .footer-text .about p {
+        font-size: 12px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .resources ul li a {
+        font-size: 12px;
+    }
+    .resources ul {
+        margin-top: 10px;
+    }
+    .footer-text .copy {
+        height: 130px;
+        margin-top: 0px;
+    }
+    .copy img {
+        width: 60px;
+        height: 60px;
+    }
+    .copy p {
+        font-size: 10px;
+    }
+    .footer-text {
+        padding-bottom: 0;
+    }
+
+
+
 }
 @media only screen and (max-width:500px) {
     .container h1 {
@@ -212,9 +445,17 @@
     .sp-yellow {
         font-size: 10px;
     }
+
+    .util{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 525px) {
+    header .container {
+        max-width: 100%;
+        margin-left: 0%;
+    }
     .profile .profile-in {
         display: flex;
         flex-direction: column;
@@ -236,6 +477,74 @@
     }
     main .profile {
         height: auto;
+    }
+    main .project-section {
+        width: 100%;
+        margin-right: 8%;
+    }
+    .project-section .project-head .fas {
+        font-size: 18px;
+    }
+    .heading span {
+        font-size: 10px;
+    }
+    .project-section .project-head {
+        height: 40px;
+    }
+    .projects .fas {
+        font-size: 15px;
+    }
+    .part li a {
+        font-size: 10px;
+    }
+    .project-section .projects {
+        height: 35px;
+    }
+
+    .connect {
+        height: 310px;
+        margin-top: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .wrapper span {
+        font-size: 18px;
+    }
+    .wrapper span {
+        font-size: 18px;
+    }
+    .line span::before {
+        content: "";
+        width: 55px;
+        position: absolute;
+        top: 2px;
+        left: -58px;
+        height: 0.5px;
+    }
+    .line span::after {
+        content: "";
+        width: 55px;
+        position: absolute;
+        top: 2px;
+        right: -58px;
+        height: 0.5px;
+    }
+    .connect-text p {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+    
+    .sp-white {
+    font-size: 10px;
+    }
+    .connect-text p:nth-child(2) {
+        margin-top: 10px;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    .social{
+        display: none;
     }
 }
 
