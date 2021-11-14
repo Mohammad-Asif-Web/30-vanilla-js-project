@@ -1,5 +1,5 @@
 <img src="./assets/img/img.jpg" width="100%">  
-<br><br>
+<br>
 
 # 55+ Project of Vanilla JS Coding Challange
 
@@ -9,7 +9,7 @@ Starter Files + Completed solutions for the JavaScript 55 days Challanges
 
 
 ## 55+ vanilla js projects content
-___
+
 This is the main repository for all of the projects in this coding challange.
 
 So, Feel free to start Learning and if you want to add something new!
@@ -37,16 +37,16 @@ So, Feel free to start Learning and if you want to add something new!
 - [JS Bangladesh](https://www.youtube.com/c/JSBangladesh)
 
 ### Other Repository for Ultimate JavaScript Solutions
-___
+
 
 - [JavaScript Basic Explanations](https://github.com/Mohammad-Asif-Web/Javascript-Basic-Explanations)
 
 ## NOTE ON PULL REQUESTS:
---- 
+
 All of these projects are part of this repository. While I do appreciate people trying to make some things prettier or adding new features, we are only accepting pull requests and looking at issues for bug fixes so that the code stays inline with the course
 
 ## LICENSE
----  
+
 [The MIT License](/LICENSE)
 
 Copyright (c) 2021 Muhammad Asif  
