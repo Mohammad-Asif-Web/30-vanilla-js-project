@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background:cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 250px;
+    background: rgb(61, 92, 93);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgb(144, 214, 226);
+    transform: translateX(400%);
+    transition: transform 0.8s linear;
+}
+.box:nth-of-type(even){
+    transform: translateX(-400%);
+}
+.box.show{
+    transform: translateX(0);
+}
+h3{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: aqua;
+}
+
+
+
+
