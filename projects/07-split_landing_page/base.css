@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    position: relative;
+}
+.split{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border: 10px solid #333;
+}
+.split.left{
+    left: 0;
+    background: url(./img/ertugrul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    transition: all 1s ease-in-out;
+
+}
+.split.right{
+    right: 0;
+    background: url(./img/osman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    transition: all 1s ease-in-out;
+}
+
+a{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.split.left a:hover{
+    background:rgb(31, 71, 77, .9);
+    border-color: rgb(31, 71, 77);
+}
+.split.right a:hover{
+    background:rgb(73, 92, 126, 0.8);
+    border-color: rgb(73, 92, 126);
+}
+
+.hover-left .left{
+    width: 75%;
+}
+.hover-left .right{
+    width: 25%;
+}
+.hover-right .right{
+    width: 75%;
+}
+.hover-right .left{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
