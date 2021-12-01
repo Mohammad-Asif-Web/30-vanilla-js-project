@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: brown;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    background: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+h1{
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtYOJ74xvn7mGREaXI1XeZGP79hJgVLuN1pBEeD4LLGV8GkQGuqybQpB9eJB93adg1FdY&usqp=CAU);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.btn{
+    padding: 20px 30px;
+    margin: 0 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.btn:focus{
+    color: #fff;
+    background: crimson;
+    border: 2px solid #fff;
+}
+.btn:active{
+    transform: scale(0.97);
+}
+
