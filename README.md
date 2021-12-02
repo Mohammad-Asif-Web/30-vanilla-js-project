@@ -16,16 +16,17 @@ So, Feel free to start Learning and if you want to add something new!
 
 | SL No. | Project | Live Demo | Source Code |
 | ------ | ------- | --------- | ------------|
-| 01 | Expanding Cards | [Link here]() | [ Github]() |
-| 02 | Expanding Cards | [Link here]() | [ Github]() |
-| 03 | Expanding Cards | [Link here]() | [ Github]() |
-| 04 | Expanding Cards | [Link here]() | [ Github]() |
-| 05 | Expanding Cards | [Link here]() | [ Github]() |
-| 06 | Expanding Cards | [Link here]() | [ Github]() |
-| 07 | Expanding Cards | [Link here]() | [ Github]() |
-| 08 | Expanding Cards | [Link here]() | [ Github]() |
-| 09 | Expanding Cards | [Link here]() | [ Github]() |
-| 10 | Expanding Cards | [Link here]() | [ Github]() |
+| 01 | Expanding Cards      | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/01-expanding_cards/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/01-expanding_cards) |
+| 02 | Progress Steps       | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/02-progress_steps/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/02-progress_steps) |
+| 03 | Rotating Navigation  | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/03-rotating_navigation/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/03-rotating_navigation) |
+| 04 | Hidden Search Widget | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/04-hidden_search_widget/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/04-hidden_search_widget) |
+| 05 | Blurry Loading       | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/05-blurry_loading/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/05-blurry_loading) |
+| 06 | Scroll Animation     | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/06-scroll_animation/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/06-scroll_animation) |
+| 07 | Split Landing Page   | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/07-split_landing_page/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/07-split_landing_page) |
+| 08 | Form Wave Animation  | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/08-form_wave_animation/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/08-form_wave_animation) |
+| 09 | Sound Board          | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/09-sound_board/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/09-sound_board) |
+| 10 | Dad Jokes            | [Link here](https://mohammad-asif-web.github.io/55-plus-vanilla-js-project/projects/10-dad_jokes/main.html) | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/10-dad_jokes) |
+| 11 | Event Key Codes      | [Link here]() | [ Github](https://github.com/Mohammad-Asif-Web/55-plus-vanilla-js-project/tree/master/projects/11-event_keycodes) |
 
 
 
