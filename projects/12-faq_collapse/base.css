@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.container{
+    margin-top: 50px;
+
+}
+h1{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+    color: steelblue;
+}
+.faq{
+    /* border: 1px solid gray; */
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 30px 30px;
+    background: rgb(221, 223, 228);
+    box-shadow: 0px 0px 7px steelblue;
+    width: 600px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.faq h3{
+    color: rgb(63, 95, 104);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.faq small{
+    display: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: steelblue;
+    transition: 0.5s linear;
+}
+.faq::before,
+.faq::after{
+    content: '\f075';
+    font-family: 'Font Awesome 5 Free';
+    color: steelblue;
+    font-size: 6rem;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 0;
+    top: 5px;
+    left: 30px;
+    overflow: hidden;
+    display: none;
+}
+.faq::before{
+    color: limegreen;
+    transform: rotate(250deg);
+    top: -20px;
+    left: -10px;
+}
+
+.faq .icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: steelblue;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.faq.active .icon{
+    background: rgb(230, 95, 95);
+}
+.faq .icon .fa-times{
+    display: none;
+}
+
+.faq.active small{
+    display: block;
+}
+.faq.active .icon .fa-chevron-down{
+    display: none;
+}
+.faq.active .icon .fa-times{
+    display: block;
+}
+.faq.active.faq{
+    background: #fff;
+}
+.faq.active.faq::before,
+.faq.active.faq::after{
+    display: block;
+}
+
+/* animation */
+.faq.active.faq::after{
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
