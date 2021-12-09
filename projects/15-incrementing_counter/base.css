@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(164, 98, 190);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.container{
+    margin: 0 30px;
+}
+
+i{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.counter{
+    /* display: block; */
+    font-size: 5rem;
+
+}
+
+@media only screen and (max-width:650px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        margin: 20px 0;
+    }
+}
