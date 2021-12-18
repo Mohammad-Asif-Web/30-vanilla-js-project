@@ -182,6 +182,15 @@ main .project-section{
     margin: 17px 0 0 20px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+.part li:nth-child(2){
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.part li:nth-child(3){
+    padding-right: 10px;
 }
 .part li a{
     font-size: 25px;
@@ -314,16 +323,22 @@ footer{
     margin-top: 20px;
     color: var(--white-color);
 }
+.footer-text .about p a{
+    color: var(--gold-color);
+    border-bottom: 1px dashed var(--gold-color)
+}
 .resources ul{
     margin-top: 20px;
 }
 .resources ul li{
     display: block;
     margin-top: 2px;
+    margin-bottom: 10px;
 }
 .resources ul li a{
     color: var(--white-color);
     font-size: 20px;
+    border-bottom: 1px dashed #fff;
 }
 .resources ul li a:hover{
     text-decoration: underline;
@@ -334,8 +349,17 @@ footer{
     color: var(--white-color);
 }
 .copy .sp-copy a{
+    background: var(--gold-color);
+    color: var(--light-v-color);
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: 0.3s all linear;
+}
+.sp-copy a:hover{
+    background: transparent;
     color: var(--gold-color);
-    text-decoration: underline;
+    border: 1px dashed var(--gold-color);
 }
 
 
