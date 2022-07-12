@@ -24,15 +24,12 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient( #021d40,#032836b9), url(/assets/img/pattern.jpg);
+    background: radial-gradient(111% 111% at 74.29% -11%, #A93300 0%, #005570 100%), linear-gradient(127.43deg, #00D5C8 0%, #2200AA 100%);
+    background-blend-mode: difference, normal;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
 }
-
-
-
 /* header section */
 header{
     width: 100%;
@@ -285,7 +282,7 @@ footer{
     width: 100%;
     height: auto;
     background: var(--light-v-color);
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .footer-text{
     max-width: 90%;
